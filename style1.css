@@ -8,7 +8,7 @@ header{
     
      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(im.jpg);
     
-    min-height: 120vh;
+    min-height:120vh;
     background-size: cover;
     background-position: center;
     margin-top: 0;
@@ -58,10 +58,11 @@ body{
     display: block;
 }
 .mt{
-    display: block
+    display: block;
     width: 1200px;
     margin-left: 0;
     margin-top: 0;
+
 }
 h1{
     
@@ -85,13 +86,15 @@ h1{
 }
 .btn-one{
     background-color: darkorange;
+    border-radius: 4px;
     font-family: "Roboto",sans-serif;
+    color: black;
 }
 .btn-two{
   font-family: "Roboto",sans-serif;   
 }
-.btn-two:hover{
-  background-color: darkorange;
+.btn-one:hover{
+  background-color: white;
     transition: 300ms;
 }
 table{
@@ -104,5 +107,7 @@ table{
 .inf{font-size: 2vw;}
 .inf2{font-size: 1vw;}
 
-
-.footer{background-color: brown;margin-top: 20vw;padding-top: 3vw;}
+.p{
+    font-family: sans-serif;
+}
+.footer{background-color: black;margin-top: 20vw;padding-top: 3vw;}
