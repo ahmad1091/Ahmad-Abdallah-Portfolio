@@ -1,113 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+}
 
-header{
-    
-     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(im.jpg);
-    
-    min-height:120vh;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0;
-    
-   
-    
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-#motivation{display: none;color: white;padding-top: 8vw;padding-left: 10vw;padding-right: 10vw;font-size: 1.5vw;}
-.mt h1{
-padding-top: 25vmax}
-.mt a{font-size: 3vw;}
 
-ul{background-color: black;width: 100%;margin-top: 0;}
-.main-nav{
-    position: fixed;
-    top: 0;
-    width: 100%
-   float: left;
-list-style: none;
+li a:hover {
+  background-color: #111;
 }
-.main-nav li{
-    display: inline-block;
-    
-}
-.main-nav li a,td a{
-    color: white;
-    text-decoration: none;
-    font-family: "Roboto",sans-serif;
-    padding: 0vw 2vw;
-    font-size: 3vw;
-    
-    
-}
-.main-nav li.active a{
-    border: 1px solid white;
-}
-.main-nav li a:hover{
-  border: 1px solid white;  
-}
-body{
-    font-family: monospace;
-  
-}
-.row{
-    max-width: 1200px;
-    margin: auto;
-    display: block;
-}
-.mt{
-    display: block;
-   
-    margin-left: 0;
-    margin-top: 0;
-
-}
-h1{
-    
-    color: white;
-    text-transform: uppercase;
-    font-size: 5vw;
-    text-align:center;
-}
-.button{
-    margin-top: 1vw;
-    margin-left: 35vw;
-}
-.btn{
-    border: 1px solid white;
-    color: wheat;
-    padding: 0.5vh 1vh;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 4vw;
-    text-transform: uppercase;
-}
-.btn-one{
-    background-color: darkorange;
-    border-radius: 4px;
-    font-family: "Roboto",sans-serif;
-    color: black;
-}
-.btn-two{
-  font-family: "Roboto",sans-serif;   
-}
-.btn-one:hover{
-  background-color: white;
-    transition: 300ms;
-}
-table{
-    width:80%; 
-    margin-left:14%; 
-    margin-right:15%;
-    padding-top: 2vw;
-    padding-bottom: 4vw;
-}
-.inf{font-size: 2vw;}
-.inf2{font-size: 1vw;}
-
-.p{
-    font-family: sans-serif;
-}
-.footer{background-color: black;margin-top: 20vw;padding-top: 3vw;}
