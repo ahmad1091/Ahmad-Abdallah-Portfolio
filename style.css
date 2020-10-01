@@ -15,6 +15,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 li a:hover {
@@ -27,6 +28,9 @@ li a:hover {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: gray;
+  color: white;
+  opacity: 0.8;
 }
 
 .sticky + .content {
@@ -39,9 +43,10 @@ img {
 #nav {
   z-index: 1;
 }
-#home {
+.relative {
   position: relative;
 }
+
 .intro {
   position: absolute;
   font-family: "Indie Flower", cursive;
@@ -66,4 +71,51 @@ img {
   border: 5px solid rgba(0, 0, 0, 0.1);
   opacity: 1;
   filter: drop-shadow(8px 8px 8px black);
+}
+.about {
+  font-family: "Indie Flower", cursive;
+  border-bottom: 2px solid white;
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  width: 30%;
+  filter: drop-shadow(10px 10px 10px #9d837b);
+}
+.skills {
+  position: absolute;
+  font-family: "Indie Flower", cursive;
+  top: 10%;
+  left: 10%;
+}
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-column-gap: 40px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.grid-item {
+  text-align: center;
+  border: 1px gray;
+}
+.icon {
+  width: 100px;
+  height: 70px;
+  opacity: 1;
+}
+.grid-contact {
+  position: absolute;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  top: 15%;
+  left: 25%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.cont {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
 }
